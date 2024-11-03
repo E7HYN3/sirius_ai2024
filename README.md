@@ -1,6 +1,14 @@
-# Установка и запуск приложения для сжатия текста
+# Приложение для сжатия текста 
+[![GitHub](https://img.shields.io/badge/github-100000?style=flat&logo=GitHub&logoColor=white&labelColor=black&color=black)](https://github.com/E7HYN3/sirius_ai2024) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j-FdgRfbcW3zYJEJRwUT_oVaL-eiLuNm?usp=sharing) <br>
+Данное приложение на **Streamlit** и **Ollama** позволяет пользователю вводить текст, выбирать модель и уровень сжатия, а затем получать сжатый текст. 
+> Реализовано в рамках дополнительного задания проектной задачи "Приложение для чтения книг с AI-ассистентом" [программы Сириус ИИ](https://sochisirius.ru/obuchenie/distant/smena1894/8753)
+___
+# Запуск в Google Colab
+| Colab | 
+| --- |
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j-FdgRfbcW3zYJEJRwUT_oVaL-eiLuNm?usp=sharing) |
 
-Данное приложение на **Streamlit** позволяет пользователю вводить текст, выбирать модель и уровень сжатия, а затем получать сжатый текст. Для установки и запуска приложения выполните следующие шаги.
+# Локальная установка и запуск
 
 ## Установка Python и Ollama
 
@@ -8,11 +16,19 @@
 
 ### Установка Python
 
-1. **Linux**:
+1. **Linux (Ubuntu/Debian)**:
    ```bash
-   sudo apt update
-   sudo apt install python3 python3-venv python3-pip
+   sudo apt install -y python3 python3-venv python3-pip
    ```
+   **Linux (Febora)**:
+   ```bash
+   sudo dnf install python3 python3-virtualenv python3-pip
+   ```
+   **Linux (Arch)**:
+   ```bash
+   sudo pacman -S python3 python-virtualenv python-pip
+   ```
+
 
 2. **macOS**:
    Убедитесь, что установлен Homebrew:
@@ -31,10 +47,9 @@
 ### Установка Ollama
 
 1. **Linux**:
-   Ознакомьтесь с официальной документацией Ollama для конкретных шагов по установке, так как поддержка может варьироваться.
+   Ознакомьтесь с официальной [документацией Ollama](https://github.com/ollama/ollama/blob/main/docs/linux.md) для конкретных шагов по установке вручную, так как поддержка разных дистрибутивов может отличаться.
    ```bash
-   curl -o ollama-installer.sh https://ollama.com/download
-   sudo bash ollama-installer.sh
+   curl -fsSL https://ollama.com/install.sh | sh
    ```
 
 2. **macOS**:
@@ -91,3 +106,4 @@
 - Убедитесь, что все зависимости, указанные в `requirements.txt`, успешно установлены.
 
 Теперь приложение готово к использованию.
+
