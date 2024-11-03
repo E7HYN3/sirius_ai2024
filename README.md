@@ -15,6 +15,10 @@ https://github.com/user-attachments/assets/27bc1f50-ae45-4115-a6bc-c940899cb89c
 
 # Локальная установка и запуск
 
+
+https://github.com/user-attachments/assets/d4513c4c-e7cc-4a0f-bafb-c2a8472f9d98
+
+
 ## Установка Python и Ollama
 
 Перед началом убедитесь, что Python и Ollama установлены на вашем устройстве.
@@ -111,9 +115,3 @@ https://github.com/user-attachments/assets/27bc1f50-ae45-4115-a6bc-c940899cb89c
 - Убедитесь, что все зависимости, указанные в `requirements.txt`, успешно установлены.
 
 Теперь приложение готово к использованию.
-
-<video src='[your URL here](https://github.com/user-attachments/assets/d4513c4c-e7cc-4a0f-bafb-c2a8472f9d98)' width=180/>
-
-
-https://github.com/user-attachments/assets/d4513c4c-e7cc-4a0f-bafb-c2a8472f9d98
-
