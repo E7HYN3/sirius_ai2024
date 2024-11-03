@@ -70,6 +70,14 @@ https://github.com/user-attachments/assets/d4513c4c-e7cc-4a0f-bafb-c2a8472f9d98
 3. **Windows**:
    - Скачайте и установите Ollama с [официального сайта Ollama](https://ollama.com/download). Убедитесь, что путь к `ollama` добавлен в системные переменные среды PATH.
 
+### Загрузка моделей
+
+   - Для загрузки языковых моделей используйте `ollama pull название_модели`, полный список языковых моделей можно найти на [сайте Ollama](https://ollama.com/library). 
+   - Мы рекомендуем использовать модель [gemma2:9b](https://ollama.com/library/gemma2:9b). Для её загрузки воспользуйтесь следующей командой:
+   ```bash
+   ollama pull gemma2:9b
+   ```
+
 ## Установка приложения
 
 1. **Клонируйте репозиторий:**
