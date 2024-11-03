@@ -108,3 +108,7 @@ ___
 Теперь приложение готово к использованию.
 
 <video src='your URL here' width=180/>
+
+
+https://github.com/user-attachments/assets/d4513c4c-e7cc-4a0f-bafb-c2a8472f9d98
+
