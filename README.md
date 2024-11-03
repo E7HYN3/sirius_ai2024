@@ -4,6 +4,11 @@
 > Реализовано в рамках дополнительного задания проектной задачи "Приложение для чтения книг с AI-ассистентом" [программы Сириус ИИ](https://sochisirius.ru/obuchenie/distant/smena1894/8753)
 ___
 # Запуск в Google Colab
+
+
+https://github.com/user-attachments/assets/27bc1f50-ae45-4115-a6bc-c940899cb89c
+
+
 | Colab | 
 | --- |
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1j-FdgRfbcW3zYJEJRwUT_oVaL-eiLuNm?usp=sharing) |
